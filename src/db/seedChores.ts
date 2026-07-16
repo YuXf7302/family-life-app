@@ -1,0 +1,25 @@
+import type { ChoreDefinition } from './index'
+
+export const seedChores: ChoreDefinition[] = [
+  { id:'cook_breakfast', name:'做早餐',      category:'cook',   estimatedMinutes:30 },
+  { id:'cook_lunch',     name:'做午餐',      category:'cook',   estimatedMinutes:45 },
+  { id:'cook_dinner',    name:'做晚餐',      category:'cook',   estimatedMinutes:60 },
+  { id:'wash_dishes',    name:'洗碗',        category:'clean',  estimatedMinutes:20 },
+  { id:'clean_kitchen',  name:'收拾厨房',    category:'clean',  estimatedMinutes:15 },
+  { id:'wipe_table',     name:'擦桌',        category:'clean',  estimatedMinutes:5 },
+  { id:'sweep',          name:'扫地',        category:'clean',  estimatedMinutes:10 },
+  { id:'mop',            name:'拖地',        category:'clean',  estimatedMinutes:15 },
+  { id:'trash',          name:'倒垃圾',      category:'clean',  estimatedMinutes:5 },
+  { id:'clean_toilet',   name:'清洁马桶',    category:'clean',  estimatedMinutes:10 },
+  { id:'laundry_wash',   name:'洗衣',        category:'laundry',estimatedMinutes:5 },
+  { id:'laundry_hang',   name:'晾衣',        category:'laundry',estimatedMinutes:10 },
+  { id:'laundry_fold',   name:'收衣整理',    category:'laundry',estimatedMinutes:10 },
+  { id:'baby_bath',      name:'宝宝洗澡',    category:'baby',   estimatedMinutes:20 },
+  { id:'baby_play',      name:'陪宝宝玩',    category:'baby',   estimatedMinutes:30 },
+  { id:'baby_sleep',     name:'哄睡觉',      category:'baby',   estimatedMinutes:20 },
+  { id:'baby_toys',      name:'收纳玩具',    category:'baby',   estimatedMinutes:10 },
+  { id:'groceries',      name:'买菜',        category:'shop',   estimatedMinutes:30 },
+  { id:'fridge_check',   name:'检查冰箱',    category:'other',  estimatedMinutes:5 },
+  { id:'weekend_clean',  name:'周末整理',    category:'other',  estimatedMinutes:30 },
+  { id:'family_10min',   name:'全家10分钟',  category:'other',  estimatedMinutes:10 },
+]
